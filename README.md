@@ -1,16 +1,23 @@
-# islam360
+# Islam360 — Login UI
 
-A new Flutter project.
+A Flutter login screen for **Islam360**, an Islamic companion app concept. 
+Features a custom green-branded theme, styled input fields, and a clean, 
+centered layout.
+
+## Features
+- Custom-styled email and password input fields with rounded borders
+- Branded green color scheme with custom typography (NotoSans)
+- Centered logo and welcome messaging
+
+## Tech Stack
+- Flutter & Dart
+
+## Status
+UI/UX implementation only — form fields are not yet wired to validation, 
+navigation, or a backend.
 
 ## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+\`\`\`bash
+flutter pub get
+flutter run
+\`\`\`
